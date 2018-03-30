@@ -11,6 +11,7 @@ html(lang="ru")
 		link(rel="shortcut icon" type="image/x-icon" href="favicon.png")
 		title Бесплатный 2-х дневный интенсив «Как выйти из тела в осознанный сон?»
 		link(rel="stylesheet" href="css/bootstrap.min.css")
+		link(rel="stylesheet" href="css/jquery.fancybox.min.css")
 		link(rel="stylesheet" href="css/styles.css")
 	body
 		section#main_screen
@@ -19,9 +20,6 @@ html(lang="ru")
 		include pug/mail_section
 		include pug/reasons
 		include pug/plan
+		include pug/author
 		include pug/scripts
-		<!--BEGIN JIVOSITE CODE-->
-		//script
-			| (function() {var widget_id = 'cMdj5UfoZX';var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = '//code.jivosite.com/script/widget/' + widget_id;var ss = document.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s, ss);})();
-		<!--END JIVOSITE CODE-->
 		iframe(name="results" style="display:none;")
