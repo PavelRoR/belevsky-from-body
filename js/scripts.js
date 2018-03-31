@@ -22,7 +22,7 @@ $(function () {
         $(".span_phone", this).html("Введите свой номер телефона и мы напомним вам о начале интенсива").removeClass("hide");
         /* $(this).attr("onsubmit", "return true;"); */
         if (pVal) {
-            window.open("https://mastervision.su/tolstikov-miraculous-hypnosis/bonus.html");
+            window.open("https://mastervision.su/belevsky-from-body/bonus.html");
             $('.span_phone', this).html('Ваш номер ' + pVal + ' зарегистрирован!');
         }
     });
@@ -38,7 +38,7 @@ $(function () {
     /* Видео */
     $(".video_wrapper").click(function () {
         var a = $(this).attr("data-youtube");
-        $(this).html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>')
+        $(this).html('<iframe src="https://www.youtube.com/embed/' + a + '?showinfo=0&rel=0&autoplay=1" allowfullscreen></iframe>')
     });
     /*Конец документа*/
 });
